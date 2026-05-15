@@ -1,0 +1,33 @@
+{
+  "FadeInTime": 400,
+  "FadeOutTime": 400,
+  "UseMouth": false,
+  "MinimumTime": 500,
+  "MaximumTime": 0,
+  "Static": [
+    { "Id": "ParamAngleX",    "Value": -30 },
+    { "Id": "ParamAngleY",    "Value":  30 },
+    { "Id": "ParamEyeLForm",  "Value":  1.0 },
+    { "Id": "ParamEyeRForm",  "Value":  1.0 },
+    { "Id": "ParamEyeBallY",  "Value":  1.0 },
+    { "Id": "ParamBrowLForm", "Value":  0.5 },
+    { "Id": "ParamBrowRForm", "Value":  1.0 },
+    { "Id": "ParamMouthDown", "Value":  0.5 }
+  ],
+  "Drift": [
+    { "Id": "ParamAngleZ",     "Min":  0,  "Max": 30, "Time": 5},
+    { "Id": "ParamBodyAngleX", "Min": -5,  "Max":  5, "Time": 5},
+    { "Id": "ParamBrowLY", "Min": -1.0,  "Max":  -0.5, "Time": 7},
+    { "Id": "ParamBrowRY", "Min": -0.5,  "Max":  0, "Time": 7},
+    { "Id": "ParamEyeLOpen", "Min": 0.7,  "Max":  0.9, "Time": 6},
+    { "Id": "ParamEyeROpen",  "Min": 0.7,  "Max":  0.9, "Time": 5},
+    { "Id": "ParamEyeBallX",  "Min": -1.0,  "Max":  -0.75, "Time": 12},
+    { "Id": "ParamMouthDown",  "Min": 0.5,  "Max":  0.75, "Time": 6},
+    { "Id": "ParamArmLA01", "Min": -10, "Max": 0,  "Time": 5},
+    { "Id": "ParamArmRA01", "Min": -10, "Max": 0,  "Time": 5},
+    { "Id": "ParamArmLA02", "Min": -5, "Max": 5,  "Time": 2},
+    { "Id": "ParamArmRA02", "Min": -5, "Max": 5,  "Time": 2},
+    { "Id": "ParamArmLA03", "Min": -30, "Max": 30,  "Time": 1},
+    { "Id": "ParamArmRA03", "Min": -30, "Max": 30,  "Time": 1}
+  ]
+}

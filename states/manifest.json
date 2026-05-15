@@ -1,0 +1,10 @@
+{
+  "states": {
+    "idle":       "idle.json",
+    "thinking":   "thinking.json",
+    "working":    "working.json",
+    "responding": "responding.json",
+    "error":      "error.json",
+    "surprise":   "surprise.json"
+  }
+}
